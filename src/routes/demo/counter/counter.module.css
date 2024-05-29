@@ -1,0 +1,41 @@
+.counter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .button-dark {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .button-dark:hover {
+    background-color: #555;
+  }
+  
+  .button-small {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  
+  .text-black{
+    color: black
+  }
